@@ -63,7 +63,7 @@ public class Gerente extends PessoaEmpresa{
         setPercentualVenda(Double.parseDouble(sc.nextLine()));
         System.out.println("Nivel de Gerência.: ");
         setNivelGerente(Integer.parseInt(sc.nextLine()));
-
+        sc.close();
     }
     
     public void imprimir(){
